@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+</head>
+<body>
+ <script type="text/javascript">
+  student={
+   id:535,name:"swe",branch:"Cse"
+  }
+  document.writeln(student.id+" "+student.name+" "+student.branch);
+
+  function fun(id,name,branch){
+      this.id=id;
+      this.name=name;
+      this.branch=branch;
+  }
+  e=new fun(123,"ani","cse");
+  document.writeln(e.id+" "+e.name+" "+e.branch);
+ </script>
+
+</body>
+</html>
